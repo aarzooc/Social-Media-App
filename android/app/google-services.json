@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532200934783",
+    "project_id": "social-media-app-68982",
+    "storage_bucket": "social-media-app-68982.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532200934783:android:916224785d14ef7851de4a",
+        "android_client_info": {
+          "package_name": "com.hcsranda.socialmediaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532200934783-423katvuotl0cpte7fies5jtbllkkdia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoh5e5ppDaak7NtuesHP15ZHtbaLdCCXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532200934783-423katvuotl0cpte7fies5jtbllkkdia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
