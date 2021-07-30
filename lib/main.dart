@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:login/ForgotPassword.dart';
 import 'loginScreen.dart';
+import 'ForgotPassword.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +14,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Login UI',
       debugShowCheckedModeBanner: false,
-      home: LoginScreen()
+      
+      routes:{
+        '/':(context) => LoginScreen(),
+        '/password': (context) => ForgotPassword(),
+      },
       //theme: ThemeData(
         //primarySwatch: Colors.blue,
       // ),

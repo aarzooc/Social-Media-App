@@ -1,3 +1,4 @@
+import 'image_banner.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -115,7 +116,12 @@ Widget buildForgotPassBtn(){
   return Container(
     alignment: Alignment.centerRight,
     child: FlatButton(
-      onPressed: () => print("Forgot Password pressed"),
+      onPressed: () {
+        Navigator.pushNamed(
+          context,
+          '/password',
+        );
+      },
       padding: EdgeInsets.only(right:0),
       child: Text(
         'Forgot Password?',
@@ -210,6 +216,7 @@ Widget buildSignUpBtn() {
   );
 }
 
+
   @override
   Widget build(BuildContext context){
     return Scaffold(
@@ -237,20 +244,23 @@ Widget buildSignUpBtn() {
                   physics: AlwaysScrollableScrollPhysics(),
                   padding: EdgeInsets.symmetric(
                     horizontal: 25,
-                    vertical: 120
+                    vertical: 75
                   ),
                   child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
+                    ImageBanner("assets/images/logo3.png"),
+                    /*
                     Text(
-                      'Welcome to  HospiCHAT',
+                      'Sign In',
                       style: TextStyle(
                         color: Colors.black87,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontWeight: FontWeight.bold
                       ),
                     ),
-                    SizedBox(height: 50,),
+                    */
+                    SizedBox(height: 10,),
                     buildEmail(),
                     SizedBox(height: 20,),
                     buildPassword(),
