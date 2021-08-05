@@ -155,7 +155,7 @@ Widget buildPassword1() {
   );
 }
 
-Widget buildPassword2() {
+/*Widget buildPassword2() {
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: <Widget>[
@@ -199,7 +199,7 @@ Widget buildPassword2() {
       )
     ],
   );
-}
+} */
 
 class ProfilePage extends StatelessWidget {
   @override
@@ -229,7 +229,6 @@ class ProfilePage extends StatelessWidget {
                       buildUserName(),
                       buildEmail(),
                       buildPassword1(),
-                      buildPassword2(),
                       Container(
                         height: 50,
                         width: double.infinity,
