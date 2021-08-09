@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+//import 'package:firebase_database/firebase_database.dart';
+import '../register/register.dart';
 
 class Home extends StatelessWidget {
   Home({this.uid});
@@ -8,7 +11,26 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Text('This is HospiCHATs main page!')),
-    );
+        appBar: AppBar(
+          title: Text(title),
+          actions: <Widget>[
+            IconButton(
+              icon: Icon(
+                Icons.exit_to_app,
+                color: Colors.white,
+              ),
+              onPressed: () {
+                FirebaseAuth auth = FirebaseAuth.instance;
+                auth.signOut().then((res) {
+                  Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(builder: (context) => Register()),
+                      (Route<dynamic> route) => false);
+                });
+              },
+            )
+          ],
+        ),
+        body: Center(child: Text('Welcome!')));
   }
 }
