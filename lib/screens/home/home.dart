@@ -6,7 +6,7 @@ import '../register/register.dart';
 class Home extends StatelessWidget {
   Home({this.uid});
   final String? uid;
-  final String title = "Main page";
+  final String title = "HospiCHAT";
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +31,7 @@ class Home extends StatelessWidget {
             )
           ],
         ),
-        body: Center(child: Text('Welcome!')),
+        body: Center(child: Text('Welcome to the home page for HospiCHAT!')),
         drawer: NavigateDrawer(uid: this.uid));
   }
 }
