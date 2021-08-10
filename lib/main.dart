@@ -4,6 +4,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:splashscreen/splashscreen.dart';
 import 'package:hospichat/screens/home/home.dart';
 import 'package:hospichat/screens/register/register.dart';
+import 'package:hospichat/screens/login/login.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
