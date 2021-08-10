@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
+import 'package:hospichat/screens/login/login.dart';
 import '../register/register.dart';
 
 class Home extends StatelessWidget {
@@ -24,7 +25,7 @@ class Home extends StatelessWidget {
                 auth.signOut().then((res) {
                   Navigator.pushAndRemoveUntil(
                       context,
-                      MaterialPageRoute(builder: (context) => Register()),
+                      MaterialPageRoute(builder: (context) => EmailLogIn()),
                       (Route<dynamic> route) => false);
                 });
               },
