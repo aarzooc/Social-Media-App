@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Register(),
+      home: IntroScreen(),
     );
   }
 }
@@ -36,7 +36,7 @@ class IntroScreen extends StatelessWidget {
         loadingText: Text("Loading..."),
         //Should actually go to login page but rn wrote to registration page but its not working
         navigateAfterSeconds:
-            result != null ? Home(uid: result.uid) : Register(),
+            result != null ? Home(uid: result.uid) : EmailLogIn(),
         seconds: 5,
         title: new Text(
           'Welcome To HospiCHAT!',
