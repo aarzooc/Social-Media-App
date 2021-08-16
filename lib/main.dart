@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:hospichat/screens/messaging/messaging.dart';
 import 'package:splashscreen/splashscreen.dart';
 import 'package:hospichat/screens/home/home.dart';
 import 'package:hospichat/screens/register/register.dart';
 import 'package:hospichat/screens/login/login.dart';
+import 'package:hospichat/screens/messaging/messaging.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Register(),
+      home: Messages(),
     );
   }
 }
