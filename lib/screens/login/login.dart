@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hospichat/screens/home/home.dart';
+import 'package:hospichat/screens/register/register.dart';
 
 class EmailLogIn extends StatefulWidget {
   EmailLogIn({this.uid});
@@ -207,7 +208,10 @@ class _EmailLogInState extends State<EmailLogIn> {
 
   Widget buildSignUpBtn() {
     return GestureDetector(
-      onTap: () => print("Sign Up Pressed"),
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => Register()),
+      ),
       child: RichText(
         text: TextSpan(
             children: [
