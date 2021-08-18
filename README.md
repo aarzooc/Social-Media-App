@@ -1,6 +1,6 @@
 # Login page
 
-Login page level with master; Forgot Password page needs to be merged and connected to backend.
+Login page level with master; Forgot Password page needs to be merged and connected to backend functionality
 
 Contains:
 - UI layout for email, password, forgot password, remember me, create account
