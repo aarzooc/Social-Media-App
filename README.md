@@ -1,16 +1,17 @@
-# login
+# registration 
 
-A new Flutter project.
+## Social media > lib > Screens 
 
-## Getting Started
+### home > home.dart
+This file creates the basic home page. 
 
-This project is a starting point for a Flutter application.
+### login > login.dart 
+This file is for the login page UI which is connected to the backend firebase. 
 
-A few resources to get you started if this is your first Flutter project:
+### register > register.dart 
+This file allows the user to create their account by entering a username, email, age and password. This portion has been connected to the firebase and all of the information is stored. This file has the basic UI for the registration page which has been since updated and pushed to master. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## pubspec.yaml 
+* contains backend firebase packages needed to run firebase and connect the UI to the backend
+* contains images in assets (logo 1, logo 2 and profile) 
+* The file contains new font packages that have been commented out at the end of the file
