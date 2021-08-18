@@ -46,7 +46,7 @@ UI for trending posts
 UI for type of posts to show
 ex. popular, hospital, recommended
 
-## pbspec.yaml
+## pubspec.yaml
 Contains packages for 
 - Images (user profile photos)
 - Fonts
