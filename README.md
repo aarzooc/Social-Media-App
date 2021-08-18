@@ -1,5 +1,8 @@
 # Messaging Feature
-Contains 
+Contains:
+- basic layout for messaging feature
+- allows user to add new chat, search for existing chats
+- settings button which should allow the user to modify their profile
 
 ## lib > screens > home
 
@@ -14,7 +17,7 @@ This file is for the login page that appears once you sign out of the app. This 
 ## lib > screens > messaging
 
 ### messaging.dart
-This file provides the basic layout which will allow the user to add a new chat, search for existing chats, as well as a settings button which should allow the user to modify their profile.  The backend still needs to be implemented, as well as some sort of ‘Add friend’ or ‘Follow’ in order to allow the user to message other users from this personal list.
+This file provides the basic layout which will allow the user to add a new chat, search for existing chats, as well as a settings button which should allow the user to modify their profile. The backend still needs to be implemented, as well as some sort of ‘Add friend’ or ‘Follow’ in order to allow the user to message other users from this personal list.
 
 ## lib > screens > register
 
