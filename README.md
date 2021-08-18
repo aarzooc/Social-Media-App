@@ -4,6 +4,14 @@ Healthcare Systems R&A app to promote communication between patients in hospital
 
 NOTE: Refer to the readme.md files in each folder to have a better understanding of the contents in the folder.
 
+**Development progress**
+- Login : complete
+- Forgot password : complete
+- Create profile : in progress
+- Forum : in progress
+- Navigation bar: in progress 
+- Authentication: in progress
+
 **Contents of Master:**
 - Login page UI dart file 
 - Home Screen dart file 
@@ -14,18 +22,21 @@ NOTE: Refer to the readme.md files in each folder to have a better understanding
 NOTE: the majority of the files in master have the UI connected to the back end except for the craete profile page
 
 ## Social media > lib > main.dart 
+* Main file that contains 
+
+## Social media > lib > Screens 
+
+### home > home.dart
+
+### login > login.dart 
+
+### profile > profile_page.dart 
+
+### register > register.dart 
+ 
+## Social media > pubspec.yaml 
 
 
-## Social media > lib > Screens
-
-### home
-
-#### home 
 
 
-## Development progress
 
-* Login : complete
-* Forgot password : complete
-* Create profile : in progress
-* Forum : in progress
