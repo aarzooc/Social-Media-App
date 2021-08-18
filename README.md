@@ -1,16 +1,31 @@
-# login
+# Login page
 
-A new Flutter project.
+Login page level with master; Forgot Password page needs to be merged and connected to backend.
 
-## Getting Started
+Contains:
+- UI layout for email, password, forgot password, remember me, create account
+- Email, password, create account are connected to backend
 
-This project is a starting point for a Flutter application.
+Forgot password and remember me need to be connected to the backend Firebase.
 
-A few resources to get you started if this is your first Flutter project:
+## lib > ForgotPassword.dart
+UI layout for forgot password page (textfield prompt for user to enter email).
+Needs to be connected to the backend Firebase to send user an email with password reset instructions. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## lib > image_banner.dart
+Container for logo placement.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## lib > loginScreen.dart
+Main UI layout for login screen (textfield prompt for user to enter email, password, login button, forgot passsword button and sign up button).
+Designed with logo colors and accessible font.
+
+## lib > logo.dart
+Container for logo placement.
+
+## lib > main.dart
+- navigation from login page to Forgot Pasword page
+
+## pubspec.yaml
+Contains packages for 
+- Images (app logo files)
+
