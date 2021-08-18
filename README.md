@@ -23,9 +23,9 @@ Designed with logo colors and accessible font.
 Container for logo placement.
 
 ## lib > main.dart
-- navigation from login page to Forgot Pasword page
+Navigation from login page to Forgot Pasword page
 
 ## pubspec.yaml
-Contains packages for 
+Contains packages for:
 - Images (app logo files)
 
