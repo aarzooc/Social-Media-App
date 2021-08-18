@@ -22,6 +22,8 @@ This file provides the basic layout which will allow the user to add a new chat,
 This file allows the user to create their account by entering a username, email, age and password. This portion has been connected to the firebase and all of the information is stored. This infomation can be retreaved from the firebase for the user to re-login once they have signed out. The UI for this file has been created with accesibity in mind as each of the keyboards are set for each fields individual functionality.
 
 ## lib > main.dart
+
+### main.dart
 Main contains the functionality of the create account process. The main file connects the create account page to the home page and the sign in page UIs to the backend system. This file is vital to testing the app. Line 24 allows you to change which file is run on the emulator to test the functionality and visualize the app. This main allows you to create an account, sign out of the app and sign back in.  The main connects all of the files within the folders in lib > screens.
 
 ## pubspec.yaml
