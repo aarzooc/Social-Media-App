@@ -45,6 +45,7 @@ This file allows the user to create their account by entering a username, email,
 ## Social media > pubspec.yaml 
 * This file contains the images under the assets (logo 1, logo 2, and profile image)
 * The file contains new font packages that have been commented out at the end of the document
+* This file contains the firebase packages that are required to connect the UI to the backend of the app
 
 
 
