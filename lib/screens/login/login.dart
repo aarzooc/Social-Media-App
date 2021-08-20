@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hospichat/screens/home/home.dart';
 import 'package:hospichat/screens/register/register.dart';
+import 'image_banner3.dart';
 
 class EmailLogIn extends StatefulWidget {
   EmailLogIn({this.uid});
@@ -265,22 +266,22 @@ class _EmailLogInState extends State<EmailLogIn> {
                   physics: AlwaysScrollableScrollPhysics(),
                   padding: EdgeInsets.symmetric(
                       horizontal: 25,
-                      vertical: 75
+                      vertical: 60
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      //  ImageBanner("assets/images/logo3.png"),
-                      /*
+                      ImageBanner3("assets/images/logo3.png"),
+                      //ImageBanner3("assets/images/logo_banner.jpg),
+                      
                     Text(
                       'Sign In',
                       style: TextStyle(
-                        color: Colors.black87,
+                        color: Colors.white,
                         fontSize: 30,
                         fontWeight: FontWeight.bold
                       ),
                     ),
-                    */
                       SizedBox(height: 10,),
                       buildEmail(),
                       SizedBox(height: 20,),
