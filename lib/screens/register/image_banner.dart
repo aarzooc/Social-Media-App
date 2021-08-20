@@ -11,6 +11,6 @@ class ImageBanner extends StatelessWidget {
         constraints: BoxConstraints.expand(
           height: 125.0,
         ),
-        child: Image.asset(_assetPath, fit: BoxFit.cover));
+        child: Image.asset(_assetPath, fit: BoxFit.contain));
   }
 }
