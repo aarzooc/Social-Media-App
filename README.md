@@ -34,17 +34,17 @@ This file create the home page, create the sign out functionality, and allows yo
 ### login > login.dart 
 This file is for the login page that appears once you sign out of the app. This file is connected to the backend. The login branch contains the same page, however this page has the logo of the app. This file is also coded to show the error messages when logining back into the app meaning that it is able to access the information saved in the firebase.
 
-*Contains image_banner3.dart -> which is used for the logo image*
+*Contains image_banner3.dart -> which is used to create the container for the logo image*
 
 ### profile > profile_page.dart 
 This file has not been connected to the firebase however it contains the UI for the creat profile page. This is the page where users can customize their account with a profile picture, bio and interests. 
 
-*Contains image_banner2.dart -> which is used for the profile image*
+*Contains image_banner2.dart -> which is used to create the container for the profile image*
 
 ### register > register.dart 
 This file allows the user to create their account by entering a username, email, age and password. This portion has been connected to the firebase and all of the information is stored. This infomation can be retreaved from the firebase for the user to re-login once they have signed out. The UI for this file has been created with accesibity in mind as each of the keyboards are set for each fields individual functionality. 
 
-*Contains image_banner1.dart -> which is used for the logo image*
+*Contains image_banner1.dart -> which is used to create the container for the logo image*
  
 ## Social media > pubspec.yaml 
 * This file contains the images under the assets (logo 1, logo 2, profile image, and logo_banner)
