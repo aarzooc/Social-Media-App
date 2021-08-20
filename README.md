@@ -9,7 +9,6 @@ NOTE: Refer to the readme.md files in each folder to have a better understanding
 - Forgot password : complete
 - Create profile : in progress
 - Forum : in progress
-- Navigation bar: in progress (Not completed) 
 - Authentication: in progress
 
 **Contents of Master:**
